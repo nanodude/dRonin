@@ -85,6 +85,14 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="f3fc", MODE="0664
 KERNEL=="hidraw*", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="d7fc", MODE="0664", GROUP="plugdev"
 
 #
+# Nowthor Corp
+#
+
+# Nowthor Corp NakedSparky flight controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="0cbb", MODE="0664", GROUP="plugdev"
+
+#
+#
 # dRonin
 #
 

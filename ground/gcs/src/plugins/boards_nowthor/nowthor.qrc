@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/nowthor">
+        <file>images/nakedsparky.png</file>
+        <file>images/nakedsparky-connection-diagram.svg</file>
+    </qresource>
+</RCC>

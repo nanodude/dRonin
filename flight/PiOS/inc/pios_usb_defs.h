@@ -397,6 +397,7 @@ enum usb_product_ids_pidcodes {
  */
 enum usb_product_id_mcs {
 	USB_PRODUCT_ID_DTFC           = 0xd7fc,
+	USB_PRODUCT_ID_NAKEDSPARKY    = 0x0CBB,
 } __attribute__((packed));
 
 enum usb_op_board_ids {

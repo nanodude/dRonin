@@ -295,6 +295,14 @@ plugin_boards_taulabs.depends += plugin_uavobjectutil
 plugin_boards_taulabs.depends += plugin_uavobjectwidgetutils
 SUBDIRS += plugin_boards_taulabs
 
+# Nowthor Corporation
+plugin_boards_nowthor.subdir = boards_nowthor
+plugin_boards_nowthor.depends = plugin_coreplugin
+plugin_boards_nowthor.depends += plugin_uavobjects
+plugin_boards_nowthor.depends += plugin_uavobjectutil
+plugin_boards_nowthor.depends += plugin_uavobjectwidgetutils
+SUBDIRS += plugin_boards_nowthor
+
 # OpenPilot project
 plugin_boards_openpilot.subdir = boards_openpilot
 plugin_boards_openpilot.depends = plugin_coreplugin
